@@ -1,0 +1,42 @@
+/*Стили секции чем мы занимаемся*/
+
+.business-item {
+  color: var(--color-white);
+  width: 370px;
+  position: relative;
+  /*width: calc((100% - 30px * 2) / 3);*/
+}
+.business-item-name {
+  background-color: var(--brg-secondary);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.section-name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.business {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.business-image {
+  display: block;
+  margin: 0;
+}

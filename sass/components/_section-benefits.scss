@@ -1,0 +1,43 @@
+/*Cтили Секции без названия*/
+.benefits-list-name {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.benefits-list > p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+.benefits li {
+  width: calc((100% - 30px * 3) / 4);
+}
+.benefits-image {
+  padding: 25px 100px;
+  background-color: var(--bgr-primary);
+  margin-bottom: 30px;
+}
+.benefits {
+  display: flex;
+}
+.benefits-list:not(:last-child) {
+  margin-right: 30px;
+}
+.benefits-icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--bgr-primary);
+}
+.benefits-icon {
+  width: 70px;
+  height: 70px;
+}

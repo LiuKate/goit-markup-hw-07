@@ -1,0 +1,51 @@
+/*Стили секции Герой*/
+
+.hero {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  background-image: linear-gradient(
+      to right,
+      var(--brg-secondary),
+      var(--brg-secondary)
+    ),
+    url(../images/Hero.jpg);
+
+  /*outline: 3px solid tomato;*/
+}
+
+.hero .container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.main-slogan {
+  color: var(--color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 696px;
+}
+.order-button {
+  color: var(--color-white);
+  background-color: var(--bgr-accent);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
+  cursor: pointer;
+}

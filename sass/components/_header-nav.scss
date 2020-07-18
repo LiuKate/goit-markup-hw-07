@@ -2,36 +2,37 @@
   display: flex;
   align-items: center;
 
-  .site-& {
-    display: flex;
-    margin-left: 85px;
-  }
-  .site-& :hover,
-  .site-& :focus {
-    color: $accent-blue;
+  &-item {
+    position: relative;
+
+    &-link {
+      display: block;
+      color: $secondary-color;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+
+      padding-top: 32px;
+      padding-bottom: 32px;
+
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
 }
 
-.nav-item {
-  position: relative;
+.site-nav {
+  display: flex;
+  margin-left: 85px;
 
-  &-link {
-    display: block;
-    color: $secondary-color;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  &:not(:last-child) {
-    margin-right: 50px;
+  &:hover,
+  &:focus {
+    color: $accent-blue;
   }
 }
 

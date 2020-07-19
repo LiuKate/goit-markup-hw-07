@@ -39,7 +39,7 @@
 
 .body {
   color: #757575;
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -54,8 +54,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0;
-  margin-bottom: 50px;
+  margin: 0 0 50px 0;
 }
 
 .container {
@@ -69,7 +68,7 @@
 
 .logo {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -210,10 +209,7 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 30px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto 30px auto;
   width: 696px;
 }
 
@@ -325,8 +321,7 @@
 .modal-form-comment {
   position: relative;
   padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 .modal-form-label {
@@ -565,8 +560,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding: 27px 0 27px 0;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -615,8 +609,8 @@
 .team-member {
   width: calc((100% - 30px * 3) / 4);
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.14), 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .team-member-profession {
@@ -624,8 +618,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 }
 
 .team-member-name {
@@ -733,15 +726,15 @@
 }
 
 .block-adress {
-  width: calc((100%-60px) / 4);
+  width: calc((100% - 60px) / 4);
 }
 
 .block-join {
-  width: calc((100%-60px) / 4);
+  width: calc((100% - 60px) / 4);
 }
 
 .block-sign {
-  width: calc((100%-60px) / 2);
+  width: calc((100% - 60px) / 2);
 }
 
 .sign {
@@ -761,8 +754,8 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: #2f303a;
 }
@@ -817,8 +810,8 @@
   border: none;
   border-radius: 4px;
   border-color: #2196f3;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-sign:hover {

@@ -39,7 +39,7 @@
 
 .body {
   color: #757575;
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   letter-spacing: 0.02em;
 }
 
@@ -54,8 +54,7 @@
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0;
-  margin-bottom: 50px;
+  margin: 0 0 50px 0;
 }
 
 .container {
@@ -69,7 +68,7 @@
 
 .logo {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -276,10 +275,8 @@
   font-size: 18px;
   line-height: 2;
   color: #212121;
-  margin: 0;
-  margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px;
+  margin: 0 0 4px 0;
+  padding: 0 24px 0 24px;
 }
 
 .portfolio-item-path {
@@ -287,9 +284,7 @@
   line-height: 1.88;
   color: #757575;
   margin: 0;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 0 24px 20px 24px;
 }
 
 .portfolio-item-presentation {
@@ -369,15 +364,15 @@
 }
 
 .block-adress {
-  width: calc((100%-60px) / 4);
+  width: calc((100% - 60px) / 4);
 }
 
 .block-join {
-  width: calc((100%-60px) / 4);
+  width: calc((100% - 60px) / 4);
 }
 
 .block-sign {
-  width: calc((100%-60px) / 2);
+  width: calc((100% - 60px) / 2);
 }
 
 .sign {
@@ -397,8 +392,8 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   background-color: #2f303a;
 }
@@ -453,8 +448,8 @@
   border: none;
   border-radius: 4px;
   border-color: #2196f3;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button-sign:hover {

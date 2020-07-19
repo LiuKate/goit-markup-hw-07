@@ -5,7 +5,7 @@
 }
 .body {
   color: $primary-color;
-  font-family: roboto;
+  font-family: roboto, sans-serif;
   letter-spacing: 0.02em;
 }
 .section {
@@ -18,8 +18,7 @@
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin: 0;
-    margin-bottom: 50px;
+    margin: 0 0 50px 0;
   }
 }
 .container {
